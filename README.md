@@ -21,3 +21,14 @@ Arquitectura del sistema:
 
 <img width="640" alt="image" src="https://github.com/VictorBelaunde/TSE_TP3/assets/112257613/2760d307-1b46-4988-9b84-445486146272">
 
+
+CASOS DE PRUEBA
+
+1. El proceso debe escribir "19.9" de ingreso y concatenar con el formato DATA:XX.X, verificar concatenación.
+2. el proceso write.c debe permitir ingresar una temperatura numerica 10.0 y verificar que valida numerico
+3. el proceso write.c debe ingresar una temperatura no valida "hola" y verificar que valida no numerico
+4. Se carga un dato con el formato homologado "DATA:11.1" y el archivo "log.txt" y  verificar que se graba correctamente
+5. Se carga un dato con el formato homologado "DATA:11.1" y el archivo NULL y  verificar que no se graba archivo
+6. Comprobar parseo de dato "DATA:11.1" con el separador ":" y verificar que es correcto
+7. Ingresar 10 datos y luego verificar que permita continuar
+8. Ingresar 11 datos y luego verificar que NO permita continuar
