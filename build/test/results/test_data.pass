@@ -1,0 +1,49 @@
+---
+:source:
+  :path: test
+  :file: test_data.c
+:successes:
+- :test: test_concatena_mensaje_consola
+  :line: 9
+  :message: ''
+  :unity_test_time: 0
+- :test: test_ingreso_temperatura_correcta
+  :line: 16
+  :message: ''
+  :unity_test_time: 0
+- :test: test_ingreso_temperatura_incorrecta
+  :line: 23
+  :message: ''
+  :unity_test_time: 0
+- :test: test_comprueba_grabacion_archivo
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+- :test: test_comprueba_NO_grabacion_archivo
+  :line: 38
+  :message: ''
+  :unity_test_time: 0
+- :test: test_parseo_correcto_con_separador
+  :line: 46
+  :message: ''
+  :unity_test_time: 0
+- :test: test_los_ingresos_llegan_al_tope
+  :line: 55
+  :message: ''
+  :unity_test_time: 0
+- :test: test_los_ingresos_superan_el_tope
+  :line: 66
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 8
+  :failed: 0
+  :ignored: 0
+:stdout:
+- Contenido escrito correctamente
+- Error abriendo archivo (null)
+- 'token: DATA'
+:time: 0.011992000014288351

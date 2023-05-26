@@ -1,0 +1,14 @@
+---
+:source:
+  :path: test
+  :file: test_write.c
+:successes: []
+:failures: []
+:ignores: []
+:counts:
+  :total: 0
+  :passed: 0
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.6697410000488162
